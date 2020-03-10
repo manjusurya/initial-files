@@ -1,0 +1,13 @@
+let selectedColours=[`red`,`blue`];
+//console.log(selectedColours);
+//console.log(selectedColours[0]);
+//selectedColours[2]=`green`;
+//console.log(selectedColours.length);
+//selectedColours[3]=`pink`,selectedColours[4]=`black`;
+selectedColours.push("black");
+//selectedColours.pop();
+console.log(selectedColours);
+selectedColours.unshift("pink");
+console.log(selectedColours);
+selectedColours.pop();
+console.log(selectedColours);
